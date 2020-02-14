@@ -1,7 +1,7 @@
 function addElem(numElements, elementId) {
     for (let i = 0; i < numElements; i++) {
         let elm = document.createElement("img");
-        elm.src = "images/invader.gif";
+        elm.src = "images/Invader.gif";
         elm.setAttribute("class", "invader");
         document.getElementById(elementId).appendChild(elm);
     }
